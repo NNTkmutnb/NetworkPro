@@ -6,4 +6,4 @@ try:
     print("Host name to IP address, extended: " + str(socket.gethostbyname_ex("www.python.org")))
     print("Get host name of local machine: " + socket.gethostbyname())
 except Exception as err:
-    print("Error: " + str(er))
+    print("Error: " + str(err))
